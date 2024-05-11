@@ -54,6 +54,7 @@ background-color: rgb(36, 35, 35);
     position: absolute;
     left: 0;
     padding-top: 20px;
+    transition: .5s ease-in-out; 
 }
 /* BURGER */
 .burger{
@@ -65,8 +66,7 @@ background-color: rgb(36, 35, 35);
 }
 .show{
     opacity: 1;
-    visibility: visible;
-    transition: .6s ease-in-out;  
+    visibility: visible;  
 }
 .line_burger{
     width: 30px;
