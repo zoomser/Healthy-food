@@ -54,7 +54,7 @@ background-color: rgb(26, 26, 26);
     flex-direction: column;
     background-color: rgba(26, 26, 26, 0.97);
     width: 100%;
-    height: 260px;
+    height: 320px;
     position: absolute;
     left: 0;
     padding-top: 20px;
@@ -143,6 +143,140 @@ main{
     text-align: center;
     margin-top: 5px;
 }
+.picture_big_button{
+    color: rgb(26, 26, 26);
+    font-family: Helvetica Neue;
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 43px;
+    background: rgb(52, 199, 89);
+    width: 120px;
+    height: 36px;
+    background-size: contain;
+    background-attachment: fixed;
 }
+.picture_big_button_all{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contacts_block_all{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 40px;
+}
+.img_watch_all{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.today_txt{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica Neue Cyr;
+    font-size: 10px;
+    text-align: center;
+}
+.working_txt{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Helvetica Neue;
+    font-size: 9px;
+    text-align: center;
+}
+
+.img_near_all{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.velyka_txt{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica Neue Cyr;
+    font-size: 10px;
+    text-align: center;
+}
+.get_txt{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Helvetica Neue;
+    font-size: 9px;
+    text-align: center;
+}
+
+.img_call_all{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.number_txt{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica Neue Cyr;
+    font-size: 10px;
+    text-align: center;
+}
+.call_txt{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Helvetica Neue;
+    font-size: 9px;
+    text-align: center;
+}
+}
+
+
+
+/* FOR BUTTON PICTURES HEAD Start */
+@media  (min-width:518px) and (max-width:915px){
+.picture_big_button{
+    color: rgb(26, 26, 26);
+    font-family: Helvetica Neue;
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 43px;
+    background: rgb(52, 199, 89);
+    width: 170px;
+    height: 52px;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.picture_big_button_all{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+}
+@media  (min-width:915px) and (max-width:1440px){
+    .picture_big_button{
+        color: rgb(26, 26, 26);
+        font-family: Helvetica Neue;
+        font-size: 2.5vw;
+        font-weight: 400;
+        text-align: center;
+        border-radius: 43px;
+        background: rgb(52, 199, 89);
+        width: 220px;
+        height: 72px;
+        background-size: contain;
+        background-attachment: fixed;
+    }
+    .picture_big_button_all{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+/* FOR BUTTON PICTURES HEAD END */
+
+
 
 
