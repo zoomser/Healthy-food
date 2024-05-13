@@ -8,7 +8,7 @@
     src: url("fonts/HelveticaNeue/HelveticaNeueCyr-Light.ttf");
 }
 body{
-    background-color: black;
+    background-color: rgb(26, 26, 26);
 }
 
 @media  (min-width:360px) and (max-width:915px) {
@@ -232,7 +232,18 @@ main{
 }
 }
 
+@media  (min-width:915px) and (max-width:1920px){
+    .picture_big{
+        width: min(100%,1440px);
+        height: 1080px;
+        background: url("img/placeholder.png")no-repeat;
 
+    }
+    .wrapper{
+        margin: 0 auto;
+        width: min(100%,1440px);
+    }
+}
 
 /* FOR BUTTON PICTURES HEAD Start */
 @media  (min-width:518px) and (max-width:915px){
