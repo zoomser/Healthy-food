@@ -14,10 +14,7 @@ window.addEventListener('click', function (e) {
 });
 
 // arrow
-let main_arrow_left=document.querySelector(".main_arrow_left")
-let main_arrow_right=document.querySelector(".main_arrow_right")
-let placeholder3=querySelector(".placeholder3")
-let placeholder4=querySelector(".placeholder4")
+
 
 
 
