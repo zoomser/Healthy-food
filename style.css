@@ -416,6 +416,7 @@ overflow: scroll;
     font-size: 13px;
 }
 
+
 .section2_div2{
     display: flex;
     flex-direction: column;
@@ -496,5 +497,45 @@ overflow: scroll;
     color: rgba(255, 255, 255, 0.5);
     font-family: Helvetica Neue;
     font-size: 13px;
+}
+
+
+    /* <!-- DISHES --> */
+.main_dishes_txt_all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+.main_dishes_txt{
+    color: rgb(48, 48, 48);
+    font-family: Helvetica Neue;
+    font-size: 50px;
+    font-weight: 900;
+}
+.main_dish_txt{
+    color: rgb(217, 217, 217);
+    font-family: Helvetica Neue Cyr;
+    font-size: 19px;
+    margin-top: -40px;
+    letter-spacing: 3px;
+}
+.main_dishes_line_green{
+    /* Line */
+width: 40px;
+height: 2px;
+background: rgb(52, 199, 89);
+}
+.main_dishes_line_green_div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.section3_main{
+
 }
 }
