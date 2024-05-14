@@ -10,11 +10,14 @@
 body{
     background-color: rgb(26, 26, 26);
 }
-
-@media  (min-width:360px) and (max-width:915px) {
+.wrapper{
+    width: 100%;
+}
+@media  (min-width:360px) and (max-width:416px) {
 body{
 background-color: rgb(26, 26, 26);
-}    
+}
+   
     /* HEALTHY SWITCHER */
 .logo_healty_txt{
     width: 173px;
@@ -90,13 +93,10 @@ background-color: rgb(26, 26, 26);
     transform: rotate(45deg) translate(5px, 5px);
     transition: transform 0.5s;
     }
-    
-main{
-    width: 100%;
-}
+
 .picture_big{ 
-    width: 100%;
-    height: 600px;
+    width: min(100%,760px);
+    height: 340px;
     background: url("img/placeholder.png")no-repeat;
     background-size: contain;
     background-attachment: fixed;
@@ -232,18 +232,7 @@ main{
 }
 }
 
-@media  (min-width:915px) and (max-width:1920px){
-    .picture_big{
-        width: min(100%,1440px);
-        height: 1080px;
-        background: url("img/placeholder.png")no-repeat;
 
-    }
-    .wrapper{
-        margin: 0 auto;
-        width: min(100%,1440px);
-    }
-}
 
 /* FOR BUTTON PICTURES HEAD Start */
 @media  (min-width:518px) and (max-width:915px){
@@ -266,11 +255,11 @@ main{
     margin-top: 20px;
 }
 }
-@media  (min-width:915px) and (max-width:1440px){
+@media  (min-width:915px) and (max-width:1920px){
     .picture_big_button{
         color: rgb(26, 26, 26);
         font-family: Helvetica Neue;
-        font-size: 2.5vw;
+        font-size: 2.0vw;
         font-weight: 400;
         text-align: center;
         border-radius: 43px;
@@ -288,6 +277,59 @@ main{
 }
 /* FOR BUTTON PICTURES HEAD END */
 
+.section1_main{   
+    width: 300px;
+    height: 220px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(37, 37, 37);
+    margin-left: 30px;
+}
+.main_about_txt{
+    color: rgb(48, 48, 48);
+    font-family: Helvetica Neue;
+    font-size: 50px;
+    font-weight: 900; 
+}
+.main_basics_txt{
+    color: rgb(217, 217, 217);
+    font-family: Helvetica Neue Cyr;
+    font-size: 18px;
+    margin-top: -40px;
+    letter-spacing: 1px;
+}
+.main_about_txt_all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_aliqua_txt{
+    color: rgb(166, 166, 166);
+    font-family: Helvetica Neue;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+}
+.placeholder3{
+    
+    width: 150px;
+    height: 120px;
+}
+.placeholder4{
+    
+    width: 150px;
+    height: 120px;
+}
+.placeholder34_all{
+    width: 150px;
+    height: 120px;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    margin-left: 75px;
+    overflow-y: scroll;
 
-
+}
 
