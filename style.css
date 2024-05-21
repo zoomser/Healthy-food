@@ -773,6 +773,23 @@ gap: 15px;
     font-size: 14px;
     font-weight: 400;
 }
+.social_foolow{
+    box-sizing: border-box;
+    border: 2px solid rgb(48, 48, 48);
+    border-radius: 30px;
+    background: rgb(38, 38, 38);
+    width: 90px;
+    height: 35px;
+}
+.social_foolow_txt{
+    color: rgb(115, 115, 115);
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
 .social_div2{
     display: flex;
     justify-content: space-around;
