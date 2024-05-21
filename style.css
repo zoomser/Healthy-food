@@ -13,7 +13,7 @@ body{
 .wrapper{
     width: 100%;
 }
-@media  (min-width:360px) and (max-width:416px) {
+@media  (min-width:360px) and (max-width:432px) {
 body{
 background-color: rgb(26, 26, 26);
 }
@@ -280,7 +280,7 @@ background-color: rgb(26, 26, 26);
 
 
                        /* ABOUT */
-@media  (min-width:360px) and (max-width:416px){
+@media  (min-width:360px) and (max-width:432px){
 .section1_main{   
     width: 300px;
     height: 340px;
@@ -343,7 +343,7 @@ background-color: rgb(26, 26, 26);
                  
 
                          /* WORK */
-@media  (min-width:360px) and (max-width:416px){
+@media  (min-width:360px) and (max-width:432px){
 .main_work_txt_all{
     display: flex;
     flex-direction: column;
@@ -391,7 +391,6 @@ overflow: scroll;
 .section2_div1{
     display: flex;
     flex-direction: column;
-    
     gap: 15px;
     padding: 15px;
     width: 240px;
@@ -420,7 +419,6 @@ overflow: scroll;
 .section2_div2{
     display: flex;
     flex-direction: column;
-    
     gap: 15px;
     padding: 15px;
     width: 240px;
@@ -501,6 +499,7 @@ overflow: scroll;
 
 
     /* <!-- DISHES --> */
+
 .main_dishes_txt_all{
     display: flex;
     flex-direction: column;
@@ -536,6 +535,329 @@ background: rgb(52, 199, 89);
 }
 
 .section3_main{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    gap: 15px;
+    width: 350px;
+    height: 450px;
+    overflow: scroll;
+}
+.dish_img_div1{
+    background-image: url("img/dish\ background.png");
+    width: 350px;
+    height: 440px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(37, 37, 37);
+}
+.dish_img_div2{
+    background-image: url("img/dish\ background.png");
+    width: 350px;
+    height: 440px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(37, 37, 37);
+}
+.dish_img_div3{
+    background-image: url("img/dish\ background.png");
+    width: 350px;
+    height: 440px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(37, 37, 37);
+}
+.dish_img_div4{
+    background-image: url("img/dish\ background.png");
+    width: 350px;
+    height: 440px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(37, 37, 37);
+}
+.dish_img_div5{
+    background-image: url("img/dish\ background.png");
+    width: 350px;
+    height: 440px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(37, 37, 37);
+}
+.dish_img_div6{
+    background-image: url("img/dish\ background.png");
+    width: 350px;
+    height: 440px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(37, 37, 37);
+}
+.dish_stars_all{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.dish_stars{
+    display: flex;
+    gap: 5px;
+}
+.dish_stars img{
+    width: 20px;
+    height: 20px;
+}
+.dish_featured_txt{
+    color: rgb(217, 217, 217);
+    font-family: Helvetica Neue;
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.dish_served_txt{
+    color: rgb(164, 168, 178);
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.dish_choice_txt{
+    color: rgb(133, 135, 140);
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.dish_numb12{
+    color: rgb(179, 179, 179);
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 900;
+}
+.dish_but_order{
+    margin-left: 40px;
+    box-sizing: border-box;
+    border: 2px solid rgb(48, 48, 48);
+    border-radius: 30px;
+    background: rgb(52, 199, 89);
+    color: rgb(37, 37, 37);
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    font-weight: 900;
+    width: 100px;
+    height: 40px;  
+}
 
+
+
+   /* CHEFS */
+
+.chef_avatar1_all{
+display: flex;
+flex-direction: column;
+margin-top: 15px;
+margin-left: 15px;
+gap: 15px;
+}   
+.chef_avatar1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.chef_avatar1_txt{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.chef_avatar1_greg_txt{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-weight: 400;
+}
+.chef_avatar1_chif_txt{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 400;
+}
+.chef_avatar1_pics{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+  /* RECIPES */
+
+.section5_main_recipes{
+    display: flex;
+    background-image: url("img/recipes\ pic1.png");
+    width: 360px;
+    height: 380px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.recipes_brea_txt{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 1.25px;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0);
+    opacity: 0.3;
+    width: 90px;
+    height: 25px;
+}
+.recipes_brea_txt_up{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 auto;
+   margin-top: 50px;
+   gap: 30px;
+}
+.recipes_jul_txt{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.recipes_come_txt{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica Neue;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.recipes_jason_txt{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+          /* SOCIAL */
+
+
+.social_div1_all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.social_div1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 65px;
+    background: rgb(38, 38, 38);
+    border-radius: 10px;
+}
+.twitter_div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.twitter_txt{
+    color: rgb(191, 191, 191);
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 400;
+}
+.social_div2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 65px;
+    background: rgb(38, 38, 38);
+    border-radius: 10px;
+}
+.social_div3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 65px;
+    background: rgb(38, 38, 38);
+    border-radius: 10px;
+}
+
+
+
+          /* footer */
+
+
+.contacts_block_all{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 40px;
+}
+.img_watch_all{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.today_txt{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica Neue Cyr;
+    font-size: 10px;
+    text-align: center;
+}
+.working_txt{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Helvetica Neue;
+    font-size: 9px;
+    text-align: center;
+}
+.footer_line{
+    width: 100%;
+    height: 2px;
+    background: rgb(48, 48, 48);
+    margin-top: 10px;
+}
+.footer_healthy_txt{
+    width: 173px;
+    height: 10px;
+    color: rgb(52, 199, 89);
+}
+.footer_logo_all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.footer_copyright_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+.footer_copyright_txt{
+    color: rgb(115, 115, 115);
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer_reserved_txt{
+    color: rgb(115, 115, 115);
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 400;
 }
 }
